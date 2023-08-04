@@ -48,7 +48,7 @@ class TV:
             self.channel-=1
         else:
             self.channel=7
-            
+
 if __name__=='__main__':
         tv1=TV()
         tv2=TV()
@@ -56,3 +56,5 @@ if __name__=='__main__':
         tv1.setVolume(3)
         tv2.setChannel(3)
         tv2.setVolume(2)
+
+print("tv1's channel is",tv1.getChannel(),"and volume level is",tv1.getVolume())
