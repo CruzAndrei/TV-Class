@@ -1,3 +1,10 @@
+class TV:
+    def __init__(self):
+        self.channel = 1
+        self.volumelevel = 1
+        self.on = False
+
+
 #Channel (1 to 120)
 #volume (1 to 7)
 
