@@ -13,6 +13,8 @@ class TV:
     def turnOff(self):
         self.on=False
 #return channel
+    def getChannel(self):
+        return self.channel
 
 #new channel
 #gets volume
