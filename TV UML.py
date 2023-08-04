@@ -42,4 +42,9 @@ class TV:
             self.channel+=1
         else:
             self.channel=1
-#decreases volume
+    #decreases volume
+    def volumeDown(self):
+        if self.channel>1:
+            self.channel-=1
+        else:
+            self.channel=7
