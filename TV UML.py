@@ -48,3 +48,11 @@ class TV:
             self.channel-=1
         else:
             self.channel=7
+            
+if __name__=='__main__':
+        tv1=TV()
+        tv2=TV()
+        tv1.setChannel(30)
+        tv1.setVolume(3)
+        tv2.setChannel(3)
+        tv2.setVolume(2)
