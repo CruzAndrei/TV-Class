@@ -3,18 +3,21 @@ class TV:
         self.channel = 1
         self.volumelevel = 1
         self.on = False
-#Channel (1 to 120)
 #volume (1 to 7)
     #Indicate the TV is on/off
         #Turns on Tv
     def turnOn(self):
         self.on=True
-#Turns off Tv
+    #Turns off Tv
     def turnOff(self):
         self.on=False
-#return channel
+    #return channel
     def getChannel(self):
         return self.channel
+    #Channel (1 to 120)
+    def setChannel(self,num):
+        if num>=1 and num<=120:
+            self.channel=num
 
 #new channel
 #gets volume
