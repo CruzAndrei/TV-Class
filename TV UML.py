@@ -20,6 +20,10 @@ class TV:
     #return volume          
     def getVolume(self):
         return self.volumeLevel
+    #Volume (1 to 7)
+    def setVolume(self,volumelevel):
+        if volumelevel>=1 and volumelevel<=7:
+            self.volumeLevel=volumelevel
         
 #new channel
 #gets volume
