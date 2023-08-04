@@ -30,7 +30,12 @@ class TV:
             self.channel+=1
         else:
             self.channel=1
-#descreases channel
+    #descreases channel
+    def channelDown(self):
+        if self.channel>1:
+            self.channel-=1
+        else:
+            self.channel=120
 
 #increases volume
 #decreases volume
