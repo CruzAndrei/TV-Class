@@ -10,6 +10,8 @@ class TV:
     def turnOn(self):
         self.on=True
 #Turns off Tv
+    def turnOff(self):
+        self.on=False
 #return channel
 
 #new channel
